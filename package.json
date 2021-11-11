@@ -1,0 +1,6 @@
+{
+  "name": "mio3io-avatars-document",
+  "scripts": {
+    "serve": "npx docsify-cli serve"
+  }
+}
