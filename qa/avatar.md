@@ -27,13 +27,27 @@ A：アバターの設定済みシェーダーは [UTS2](https://github.com/unit
 
 ## 改変用テクスチャはどこにありますか
 
-改変用 clip/psd はファイルサイズが大きいため Unitypackage とは別の ZIP ファイルにしている場合があります。別途ダウンロードしてください。またクリスタで作成したファイルのため、それ以外の特にグラデーションマップを使用できないソフトでは正常に開くことができませんのでご了承ください。
+主にアバターの改変用 CLIP/PSD はファイルサイズが大きいため Unitypackage とは別の ZIP ファイルにしている場合があります。購入ページからファイル名に「`_Textures`」のついた ZIP を別途ダウンロードしてください。
+
+## 改変用テクスチャの表示がおかしい
+
+当モデルのテクスチャは主に「[CLIP STUDIO PAINT](https://www.clipstudio.net/)」で作成されています。
+
+テクスチャは CLIP ファイルを CLIP STUDIO PAINT で開くと、完全な状態で編集できます。
+それ以外のツールでは CLIP STUDIO PAINT 特有の機能が消え、表示がおかしくなる場合があります。
+同梱の PSD ファイルは CLIP STUDIO PAINT で変換したものです。
+
+また、グラーデーションマップを使用しているため対応していない GIMP などでは正常に開くことができません。
+
+対応ツールをお持ちでない場合は購入していただくか、PNG ファイルを編集してください。
 
 ## 標準の表情はどこで設定できますか
 
-予期せぬ不具合および干渉を回避するため Bodyメッシュではなくアニメーションクリップで設定しています。
+Write Defaults が非推奨になり、当モデルも Write Defaults OFF 前提のアニメーター構造になっています。
+そのため、デフォルトの表情も Body メッシュではなくアニメーションクリップで設定しています。
+
 `Animations/Face/(AvatarName)_face_default.anim` で設定してください。
-このファイルは `Animations/Controllers/(AvatarName)_FX.controller` の `DefaultFace` レイヤーで常時再生されます。
+このファイルは `Animations/Controllers/(AvatarName)_FX.controller` の `DefaultFace` レイヤーで再生されます。
 
 ## リップシンクが機能しません
 
