@@ -1,6 +1,6 @@
 # mio3io Avatars Document <!-- {docsify-ignore-all} -->
 
-このサイトは mio3io アバター用のドキュメントサイトです
+このサイトは [mio3io](https://mio3works.booth.pm/) アバターのドキュメントサイトです
 
 基本的なアバターの導入方法については [アバターの導入 PC版](setup_pc.md) または [アバターの導入 Quest版](setup_quest.md) をご覧ください。
 
