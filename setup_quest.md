@@ -15,7 +15,7 @@
 
 !> Unity は必ず**指定されたバージョン**をご利用ください。
 現在のバージョンは[こちらから確認できます](https://docs.vrchat.com/docs/current-unity-version)。
-VRCSDK は公式が配布している[最新のバージョン](https://vrchat.com/home/download)をお使いください。
+VRCSDK は公式が配布している[最新のバージョン](https://vrchat.com/home/download)をご利用ください。
 
 ## プロジェクトを作成
 
