@@ -1,3 +1,7 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
 .sidebar {
   width: 320px;
 }
