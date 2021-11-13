@@ -1,5 +1,7 @@
 # [WIP]Tips
 
+Tips やアバターとは関係ない Q&A など
+
 ##  プレビュー画面を平行投影にする
 
 UnityのSceneの表示方法はIso（平行投影）にすると視点を変えてもアバターが中心になるので編集しやすくなります。
@@ -17,6 +19,28 @@ Scene を 2つ開くなどして見やすくしたり、Inspector を複数開�
 
 DynamicBone が設定されているボーンは変形させても自動的に戻ってしまうことがあります。
 一時的に DynamicBone のチェックボックスをオフにしてからボーンを変形させ、GAME タブで一度再生してから DynamicBone のチェックボックスをオンに戻すと固定されます。
+
+## パーツによって明るさが変わる
+
+髪やアクセサリーを変更するとメッシュの設定によって角度で消えたり明るさが変わってしまうことがあります。
+
+髪やパーツを変更する場合は「Bounds」と「AnchorOverride」を他のメッシュと合わせるようにすると角度によってに明るさが変わったり消えません。AnchorOverride は追加するオブジェクトのメッシュの「AnchorOverride」の項目にアバター直下にある「AnchorTarget」を D&D してください。
+
+Bounds を設定するにはがとーしょこらさんの [VRCAvatarEditor](https://booth.pm/ja/items/1258744) を使用するのがおすすめです。
+
+## 手裏剣のようなマークがある
+
+パーティクルの存在を示すアイコンです。右上の「Gizmos」からサイズを変えたり消すことが出来ます。
+
+![](../images/tips/gizmos.png ':class=ss :size=500')
+
+## View Position の丸が消えてしまった
+
+Gizmo が一括 OFF になっている可能性があります。右上の「Gizmos」をクリックして切り替えてください。
+
+![](../images/tips/gizmos.png ':class=ss :size=500')
+
+
 
 
 
