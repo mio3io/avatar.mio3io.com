@@ -40,9 +40,13 @@ Gizmo が一括 OFF になっている可能性があります。右上の「Giz
 
 ![](../images/tips/gizmos.png ':class=ss :size=500')
 
+## 全体的に黄色い
 
+Unity プロジェクトのデフォルトの Directional Light の色が若干黄色いためです。
 
+![](../images/tips/DirectionalLight.png ':class=ss :size=500')
 
+アップロードしたアバターに影響は出ないため特に変更する必要はありませんが、ライトを白くするとエディター上でも VRChat のホームワールドと同じような見た目になります。
 
 ## 便利な拡張
 
