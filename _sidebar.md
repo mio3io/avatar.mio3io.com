@@ -1,6 +1,6 @@
 - ガイド
 
-  - [PC版とQuest版どっちを選べばいい？](pc_quest.md)
+  - [PC版とQuest版どっちを選べばいい？](platform_avatar.md)
   - [付属の簡易素体とは](exbody.md)
   - [対応衣装の制作・販売について](userclothes.md)
 
