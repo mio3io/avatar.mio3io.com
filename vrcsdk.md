@@ -14,7 +14,7 @@
 
 🍒 [Unity をダウンロード](https://unity3d.com/jp/get-unity/download)
 
-![](images/vrcsdk/unityhub_download.png ':class=ss')
+![](images/vrcsdk/unityhub_download.png ':class=ss :size=700')
 
 Unity 単体か UnityHub どっちでもいいのですが、UnityHub 前提で説明をすすめます。
 
@@ -24,23 +24,27 @@ Unity 単体か UnityHub どっちでもいいのですが、UnityHub 前提で�
 
 UnityHub の「インストール」タブの「エディターをインストール」から指定されたバージョンをインストールします。UnityHub もたまにアップデートされるため画面が異なる場合があります。
 
-![](images/vrcsdk/unity01.png ':class=ss')
+![](images/vrcsdk/unity01.png ':class=ss :size=800')
 
-![](images/vrcsdk/unity02.png ':class=ss')
-
+![](images/vrcsdk/unity02.png ':class=ss :size=800')
 
 2021年11月現在のバージョンは「Unity 2019.4.31f1.」です。
 最新のバージョンは[こちらのページ](https://docs.vrchat.com/docs/current-unity-version)で確認できます。
+
+指定されたバージョンが見つからない場合は「[ダウンロードアーカイブ](https://unity3d.com/jp/get-unity/download/archive)」で探して Hunity Hub ボタンから追加できます。
+
+![](images/vrcsdk/unityhub_download02.png ':class=ss :size=700')
+
 
 ## プロジェクトの作成
 
 「プロジェクト」タブを開き「新しいプロジェクト」をクリックします。
 
-![](images/vrcsdk/unity03.png ':class=ss')
+![](images/vrcsdk/unity03.png ':class=ss :size=800')
 
 使用する Unity のバージョンを確認し、任意の名前をつけてプロジェクトを作成します。
 
-![](images/vrcsdk/unity04.png ':class=ss')
+![](images/vrcsdk/unity04.png ':class=ss :size=800')
 
 プロジェクトのセットアップには数分かかることがあります。
 
@@ -53,16 +57,16 @@ VRChat公式サイトの「[Downloadページ](https://vrchat.com/home/download)
 
 🍒 [VRCSDK のダウンロード](https://vrchat.com/home/download)
 
-![](images/vrcsdk/vrchat_download.png ':class=ss')
+![](images/vrcsdk/vrchat_download.png ':class=ss :size=800')
 
 VRCSDK には「ワールド用」と「アバター用」の2つがあるため、間違えないように注意しましょう。
 
 プロジェクトの「Assets」ウィンドウにダウンロードした unitypackage をドラッグ＆ドロップするか、メニューの `Assets > Import Package > Custom Package` からファイルを選択してインポートします。
 
-![](images/vrcsdk/unity05.png ':class=ss')
+![](images/vrcsdk/unity05.png ':class=ss :size=800')
 
 パッケージの大きさによって数分かかることがあります。
 
 VRCSDK のコントロールパネルを開きログインします。
 
-![](images/vrcsdk/unity06.png ':class=ss')
+![](images/vrcsdk/unity06.png ':class=ss :size=800')
