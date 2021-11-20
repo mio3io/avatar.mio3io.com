@@ -48,15 +48,14 @@ Dynamic Bone がインポートされていない場合 Missing エラーでア�
 
 BOOTH の購入ページから「`Hakka_v1.2_VRC_(DateTime).zip`」というファイルをダウンロードして適当な場所に解凍します。いくつかファイルがありますが、ZIP ファイル名に `_VRC` とついているものが VRChat 用のパッケージです。
 
-アバターの Unitypackage をプロジェクトの「**Assets**」ウィンドウにドラッグ＆ドロップするか、メニューの`Assets > Import Package > Custom Package` からファイルを選択してインポートします。
+解凍したフォルダの直下にある `unitypackage` 拡張子のファイルをプロジェクトの「**Assets**」ウィンドウにドラッグ＆ドロップするか、メニューの`Assets > Import Package > Custom Package` からファイルを選択してインポートします。
 
 ![](images/setup_pc01.png ':class=ss')
 
-インポートすると Project ウィンドウに `mio3io > Hakka` というフォルダが作成されます。
-
 ## シーン上にプレハブを読み込む
 
-`Hakka` フォルダの直下にあるプレハブ `Hakka_v.x_Normal` を適当なシーンのヒエラルキーにドラッグ＆ドロップします
+インポートすると Project ウィンドウに `mio3io > Hakka` というフォルダが作成されます。
+`Hakka` フォルダの直下にあるプレハブ `Hakka_v.x_Normal.prefab` を適当なシーンのヒエラルキーにドラッグ＆ドロップします
 
 ![](images/setup_pc02.png ':class=ss')
 
@@ -77,21 +76,17 @@ BOOTH の購入ページから「`Hakka_v1.2_VRC_(DateTime).zip`」というフ�
 
 ## アバターをアップロード
 
-VRCSDK の `Builder` タブを開き「`Build & Publish for Windows`」ボタンをおします。
+VRCSDK の Builder タブを開き「`Build & Publish for Windows`」ボタンをおします。
 
 ![](images/setup_pc03.png ':class=ss :size=500')
 
 「`A Material on this avatar has custom shader keywords.`」というメッセージはエラーではありません。UTS2 で非推奨のカスタムキーワードを使用しているための警告なので、無視してそのままアップロードしてください。Auto Fix してしまうと表示がおかしくなる場合があります。もしアップロード出来ない場合は別の何かが原因なので「これを Auto Fix したらいけるのでは？」と思わないでください。
 
-
 ただし `Streaming Mip Maps` というエラーは Auto Fix しても大丈夫です。
 
 ![](images/setup_pc_mipmaperror.png ':class=ss :size=500')
 
-
 少し待つと自動的に再生ボタンが押され Game タブにアップロード画面が表示されます。
-
-
 
 任意の名前を入れアップロードします。
 
