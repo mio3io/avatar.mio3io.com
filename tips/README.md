@@ -1,6 +1,6 @@
-# [WIP]Tips
+# 汎用Tips
 
-Tips やアバターとは関係ない Q&A など
+Tips やアバターとは関係のない Q&A など
 
 ##  プレビュー画面を平行投影にする
 
@@ -42,7 +42,7 @@ Gizmo が一括 OFF になっている可能性があります。右上の「Giz
 
 ## 全体的に黄色い
 
-Unity プロジェクトのデフォルトの Directional Light の色が若干黄色いためです。
+Unity プロジェクトの標準の Directional Light の色が若干黄色いためです。
 
 ![](../images/tips/DirectionalLight.png ':class=ss :size=500')
 
