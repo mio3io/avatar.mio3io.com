@@ -3,6 +3,7 @@
   - [PC版とQuest版どっちを選べばいい？](platform_avatar.md)
   - [付属の簡易素体とは](exbody.md)
   - [対応衣装の制作・販売について](userclothes.md)
+  - [使用例・改変例の写真を募集しています](userspict.md)
 
 - アバターを使用する
 
