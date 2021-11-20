@@ -27,14 +27,14 @@ BOOTH の購入ページから「`HakkaQuest_v1.2_(DateTime).zip`」というフ
 
 解凍したフォルダの直下にある `unitypackage` 拡張子のファイルをプロジェクトの「**Assets**」ウィンドウにドラッグ＆ドロップするか、メニューの`Assets > Import Package > Custom Package` からファイルを選択してインポートします。
 
-![](images/setup_quest01.png ':class=ss')
+![](images/setup/quest01.png ':class=ss')
 
 ## シーン上にプレハブを読み込む
 
 インポートすると Project ウィンドウに `mio3io > HakkaQuest` というフォルダが作成されます。
 `HakkaQuest` フォルダの直下にあるプレハブ `HakkaQuest.prefab` を適当なシーンのヒエラルキーにドラッグ＆ドロップします
 
-![](images/setup_quest02.png ':class=ss')
+![](images/setup/quest02.png ':class=ss')
 
 ## アバターをアップロード
 
@@ -42,13 +42,13 @@ VRCSDK の Builder タブを開き ① にある「Active Build Target」が「*
 
 「Android」になっていない場合は「**Switch Build Target to Android**」ボタンをクリックして切り替えます。
 
-![](images/setup_quest03.png ':class=ss :size=450')
+![](images/setup/quest03.png ':class=ss :size=450')
 
 このとき「Switch Build Target to Android」が利用できない場合は次の手順で Android 用のモジュールを追加してください。
 
-![](images/setup_quest04.png ':class=ss :size=800')
+![](images/setup/quest04.png ':class=ss :size=800')
 
-![](images/setup_quest05.png ':class=ss :size=800')
+![](images/setup/quest05.png ':class=ss :size=800')
 
 「`Build & Publish for Windows`」ボタンをおします。
 
@@ -56,7 +56,7 @@ VRCSDK の Builder タブを開き ① にある「Active Build Target」が「*
 
 任意の名前を入れアップロードします。
 
-![](images/setup_pc04.png ':class=ss')
+![](images/setup/pc04.png ':class=ss')
 
 !> `Sharing` は必ず `Private` （アップロードした者だけ使用できる） のままにしてください。
 

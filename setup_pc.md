@@ -36,7 +36,7 @@ Unity プロジェクトを作成し VRCSDK をインポートします。
 
 Dynamic Bone など購入したアセットは `Window > Package Manager` の `My Assets` からインポートすることもできます。
 
-![](images/setup_pc_dynamicbone.png ':class=ss')
+![](images/setup/pc_dynamicbone.png ':class=ss')
 
 Dynamic Bone がインポートされていない場合 Missing エラーでアップロードできません。所持していない場合は Dynamic Bone が設定されているコンポーネントをすべて削除する必要があります。
 
@@ -50,24 +50,24 @@ BOOTH の購入ページから「`Hakka_v1.2_VRC_(DateTime).zip`」というフ�
 
 解凍したフォルダの直下にある `unitypackage` 拡張子のファイルをプロジェクトの「**Assets**」ウィンドウにドラッグ＆ドロップするか、メニューの`Assets > Import Package > Custom Package` からファイルを選択してインポートします。
 
-![](images/setup_pc01.png ':class=ss')
+![](images/setup/pc01.png ':class=ss')
 
 ## シーン上にプレハブを読み込む
 
 インポートすると Project ウィンドウに `mio3io > Hakka` というフォルダが作成されます。
 `Hakka` フォルダの直下にあるプレハブ `Hakka_v.x_Normal.prefab` を適当なシーンのヒエラルキーにドラッグ＆ドロップします
 
-![](images/setup_pc02.png ':class=ss')
+![](images/setup/pc02.png ':class=ss')
 
 右下のバーでファイル一覧の表示形式を切り替えられます。
 
 アバターがピンク色になっている場合は必要なシェーダーがインポートされていません。
 
-![](images/setup_materialerror.png ':class=ss :size=220')
+![](images/setup/materialerror.png ':class=ss :size=220')
 
 あとからシェーダーを追加しても表示がおかしくなる場合は一部のパラメータが消えてしまっている可能性があるため、一旦アバターのフォルダを削除してからシェーダー、アバターの順でインポートし直してください。
 
-![](images/setup_materialerror2.png ':class=ss :size=323')
+![](images/setup/materialerror2.png ':class=ss :size=323')
 
 プレハブやモデルのサムネイルだけがマテリアルエラーになる場合は、ファイルを選択して右クリック > Reimport をしてみてください。
 
@@ -78,19 +78,19 @@ BOOTH の購入ページから「`Hakka_v1.2_VRC_(DateTime).zip`」というフ�
 
 VRCSDK の Builder タブを開き「`Build & Publish for Windows`」ボタンをおします。
 
-![](images/setup_pc03.png ':class=ss :size=500')
+![](images/setup/pc03.png ':class=ss :size=500')
 
 「`A Material on this avatar has custom shader keywords.`」というメッセージはエラーではありません。UTS2 で非推奨のカスタムキーワードを使用しているための警告なので、無視してそのままアップロードしてください。Auto Fix してしまうと表示がおかしくなる場合があります。もしアップロード出来ない場合は別の何かが原因なので「これを Auto Fix したらいけるのでは？」と思わないでください。
 
 ただし `Streaming Mip Maps` というエラーは Auto Fix しても大丈夫です。
 
-![](images/setup_pc_mipmaperror.png ':class=ss :size=500')
+![](images/setup/pc_mipmaperror.png ':class=ss :size=500')
 
 少し待つと自動的に再生ボタンが押され Game タブにアップロード画面が表示されます。
 
 任意の名前を入れアップロードします。
 
-![](images/setup_pc04.png ':class=ss')
+![](images/setup/pc04.png ':class=ss')
 
 !> `Sharing` は必ず `Private` （アップロードした者だけ使用できる） のままにしてください。
 
