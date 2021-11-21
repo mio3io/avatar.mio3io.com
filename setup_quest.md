@@ -32,7 +32,7 @@ BOOTH の購入ページから「`HakkaQuest_v1.2_(DateTime).zip`」というフ
 ## シーン上にプレハブを読み込む
 
 インポートすると Project ウィンドウに `mio3io > HakkaQuest` というフォルダが作成されます。
-`HakkaQuest` フォルダの直下にあるプレハブ `HakkaQuest.prefab` を適当なシーンのヒエラルキーにドラッグ＆ドロップします
+`HakkaQuest` フォルダの直下にあるプレハブ `HakkaQuest.prefab` を適当なシーンの Hierarchy にドラッグ＆ドロップします
 
 ![](images/setup/quest02.png ':class=ss')
 

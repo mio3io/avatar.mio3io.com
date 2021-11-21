@@ -55,7 +55,7 @@ BOOTH の購入ページから「`Hakka_v1.2_VRC_(DateTime).zip`」というフ�
 ## シーン上にプレハブを読み込む
 
 インポートすると Project ウィンドウに `mio3io > Hakka` というフォルダが作成されます。
-`Hakka` フォルダの直下にあるプレハブ `Hakka_v.x_Normal.prefab` を適当なシーンのヒエラルキーにドラッグ＆ドロップします
+`Hakka` フォルダの直下にあるプレハブ `Hakka_v.x_Normal.prefab` を適当なシーンの Hierarchy にドラッグ＆ドロップします
 
 ![](images/setup/pc02.png ':class=ss')
 
