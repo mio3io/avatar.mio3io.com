@@ -8,13 +8,13 @@ Twitter の DM や BOOTH メッセージによる導入・改変・トラブル�
 
 素体の一部が線になっている・凹んでいるのはブレンドシェイプで見えなくなっているためです。
 
-![](../images/qa/body_hideshapekey.png ':class=ss :size=500')
+![](../images/qa/body_hideshapekey.png ":class=ss :size=500")
 
 当モデルは素体メッシュ（主に `Body` または `Body_bottom` という名前のオブジェクト）に貫通防止のためのブレンドシェイプを実装しており、素体の部位を一時的に凹ませることができます。
 
 Hierarchy ウィンドウで素体メッシュを選択すると Inspector ウィンドウに BlendShapes タブが表示されます。
 
-![](../images/qa/body_hideshapekey02.png ':class=ss :size=800')
+![](../images/qa/body_hideshapekey02.png ":class=ss :size=800")
 
 `body_slim_*` または `body_hide_*` という名前のブレンドシェイプで素体を変形させられるので、衣装の形状に合わせて肩やウエストなど貫通させたくない部分の数値を調整してください。
 
@@ -22,10 +22,9 @@ Hierarchy ウィンドウで素体メッシュを選択すると Inspector ウ�
 
 ## アップロードすると衣装が消えます
 
-軽量化のため VRChat にアップロードする必要のないオブジェクトは非表示＋Tag を `EditorOnly` にしてビルドに含めないようにしています。使用したいオブジェクトはアクティブにしたうえで Tag を `Untagged` に変更してください。
+軽量化のため VRChat にアップロードする必要のないオブジェクトは非表示＋ Tag を `EditorOnly` にしてビルドに含めないようにしています。使用したいオブジェクトはアクティブにしたうえで Tag を `Untagged` に変更してください。
 
-![](../images/qa/editoronly.png ':class=ss :size=800')
-
+![](../images/qa/editoronly.png ":class=ss :size=800")
 
 ## 改変用テクスチャはどこにありますか
 
@@ -45,12 +44,20 @@ Hierarchy ウィンドウで素体メッシュを選択すると Inspector ウ�
 
 ## 標準の表情はどこで設定できますか
 
-標準の表情はアニメーションクリップで設定しています。
+VRChat で WriteDefaults の使用が非推奨になり当モデルもそれに従っています。
+表情などのブレンドシェイプやオブジェクトの ON/OFF はアニメーションクリップで切り替える必要があります。
 
-`Animations/Face/(AvatarName)_face_default.anim` で設定してください。
+標準の表情は次のアニメーションクリップを編集してください。
+
+`Animations/Face/(AvatarName)_face_default.anim`
+
+新しいバージョンの杏里は試験的にフォルダ構成を変更しているため次のファイルを編集してください。
+
+`Avatars/Default/Face/(AvatarName)_face_default.anim`
+
 このファイルは `Animations/Controllers/(AvatarName)_FX.controller` の `DefaultFace` レイヤーで再生されます。
 
-WriteDefaults が非推奨になり、当モデルも WriteDefaults OFF 前提のアニメーター構造になっているためです。
+それ以外の表情についても同じフォルダ内にあるアニメーションクリップを編集してください。
 
 ## 表情を変えるとリップシンクが動きません
 
@@ -65,7 +72,7 @@ FaceTracking をオンにする場合作成した表情の組み合わせによ�
 
 常時リップシンクが機能しない場合は、アニメーションにリップシンク用のブレンドシェイプがアニメーションファイルに含まれている可能性があります。オリジナルで追加したり編集している場合は確認してください。
 
-## MMDワールドで表情が変わりません
+## MMD ワールドで表情が変わりません
 
 当モデルは VRChat のダンスワールドには対応しておりません。
 
