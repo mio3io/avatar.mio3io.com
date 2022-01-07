@@ -1,19 +1,34 @@
-# 汎用Tips
+# 汎用 Tips
 
 Tips やアバターとは関係のない Q&A など
 
-##  プレビュー画面を平行投影にする
+## 便利な拡張機能やアセット
 
-UnityのSceneの表示方法はIso（平行投影）にすると視点を変えてもアバターが中心になるので編集しやすくなります。
+### Unity でドラッグ＆ドロップした時に上書きできるようにする <!-- {docsify-ignore} -->
+
+https://amagamina.jp/overwriter/
+
+Unity へ同名アセットファイルをドラッグ＆ドロップした時に上書きできるようにする拡張。
+テクスチャなどを作成して実際に Unity に盛っていくときは次の拡張を使用すると捗ります
+
+### アセットをディープコピーできるようにするツール <!-- {docsify-ignore} -->
+
+https://github.com/c3-hoge-fuga-piyo/Deeplicate.unity
+
+こちらの[使用例](https://baba-s.hatenablog.com/entry/2019/06/04/081000)のようにマテリアルのテクスチャなど自動で参照先を再設定してくれます
+
+## プレビュー画面を平行投影にする
+
+Unity の Scene の表示方法は Iso（平行投影）にすると視点を変えてもアバターが中心になるので編集しやすくなります。
 
 ## タブを複数開く
 
 またタブの右上にあるメニューから各ウィンドウを複数開くことができます。
-Scene を 2つ開くなどして見やすくしたり、Inspector を複数開いてよく編集するものを鍵アイコンでロックしたりできます。
+Scene を 2 つ開くなどして見やすくしたり、Inspector を複数開いてよく編集するものを鍵アイコンでロックしたりできます。
 
-##  アニメのプレビューモデルを自分のアバターにする
+## アニメのプレビューモデルを自分のアバターにする
 
-アニメーションファイルを直接編集する場合は、Hierarchy 上にあるモデルをプレビューのところにD＆Dするとオジサンではなく任意のモデルでプレビューできます。
+アニメーションファイルを直接編集する場合は、Hierarchy 上にあるモデルをプレビューのところに D＆D するとオジサンではなく任意のモデルでプレビューできます。
 
 ## ボーンを変形しても勝手に戻ってしまう場合
 
@@ -32,25 +47,18 @@ Bounds を設定するにはがとーしょこらさんの [VRCAvatarEditor](htt
 
 パーティクルの存在を示すアイコンです。右上の「Gizmos」からサイズを変えたり消すことが出来ます。
 
-![](../images/tips/gizmos.png ':class=ss :size=500')
+![](../images/tips/gizmos.png ":class=ss :size=500")
 
 ## View Position の丸が消えてしまった
 
 Gizmo が一括 OFF になっている可能性があります。右上の「Gizmos」をクリックして切り替えてください。
 
-![](../images/tips/gizmos.png ':class=ss :size=500')
+![](../images/tips/gizmos.png ":class=ss :size=500")
 
 ## 全体的に黄色い
 
 Unity プロジェクトの標準の Directional Light の色が若干黄色いためです。
 
-![](../images/tips/DirectionalLight.png ':class=ss :size=500')
+![](../images/tips/DirectionalLight.png ":class=ss :size=500")
 
 アップロードしたアバターに影響は出ないため特に変更する必要はありませんが、ライトを白くするとエディター上でも VRChat のホームワールドと同じような見た目になります。
-
-## 便利な拡張
-
-Unityへ同名アセットファイルをドラッグ＆ドロップした時に上書きできるようにする拡張
-https://amagamina.jp/overwriter/
-
-テクスチャなどを作成して実際にUnityに盛っていくときは次の拡張を使用すると捗ります

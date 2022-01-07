@@ -7,10 +7,10 @@
 
 - アバターを使用する
 
+  - [UnityとVRCSDKの導入（初心者向け）](vrcsdk.md)
   - [アバターの導入 PC版](setup_pc.md)
   - [アバターの導入 Quest版](setup_quest.md)
-  - [UnityとVRCSDKの導入（初心者向け）](vrcsdk.md)
-  - [Tips](tips/)
+  - [アバター改変の手引](tips/)
 
 - Q&A・お問い合わせ
 
