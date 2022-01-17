@@ -1,10 +1,10 @@
 # お問い合わせ <!-- {docsify-ignore-all} -->
 
-## 公式Discordサーバー
+## 公式 Discord サーバー
 
 mio3io の公式 Discord サーバーです。
 
-主に mioアバター集会 等のイベント企画・運営、当アバター関連のお知らせの他、改変相談などユーザー同士のコミュニケーションを手助けできる場としてご利用ください。
+主に mio アバター集会 等のイベント企画・運営、当アバター関連のお知らせの他、改変相談などユーザー同士のコミュニケーションを手助けできる場としてご利用ください。
 
 [mio3io 購入者向けコミュニティ](https://discord.com/invite/DEdZuXUnwu)
 
@@ -12,9 +12,11 @@ Discord では導入・改変の質問にも返答できる場合があります
 
 ## お問い合わせ
 
-BOOTH で販売中のアバターに関するお問い合わせは BOOTH メッセージ、または mio3works@gmail.com までご連絡ください。
+導入や改変に関する質問は [Discord mio3io 購入者向けコミュニティ](https://discord.com/invite/DEdZuXUnwu) でのみ行っています。
 
-https://mio3works.booth.pm/
+利用条件の確認などのお問い合わせは [BOOTH メッセージ](https://mio3works.booth.pm/)からご連絡ください。
+
+お仕事に関するお問い合わせは mio3works@gmail.com までご連絡ください。
 
 作者は日本語しか分からないため、日本語以外のお問い合わせには返答できない場合があります。
 
