@@ -14,7 +14,7 @@ Discord では導入・改変の質問にも返答できる場合があります
 
 導入や改変に関する質問は [Discord mio3io 購入者向けコミュニティ](https://discord.com/invite/DEdZuXUnwu) でのみ行っています。
 
-利用条件の確認などのお問い合わせは [BOOTH メッセージ](https://mio3works.booth.pm/)からご連絡ください。
+利用条件の確認などのお問い合わせは [BOOTH メッセージ](https://mio3works.booth.pm/)からご連絡ください。メールでのお問い合わせには対応できませんのでご注意ください。
 
 お仕事に関するお問い合わせは mio3works@gmail.com までご連絡ください。
 
