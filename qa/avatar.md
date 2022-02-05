@@ -51,13 +51,14 @@ VRChat で WriteDefaults の使用が非推奨になり当モデルもそれに�
 
 `Animations/Face/(AvatarName)_face_default.anim`
 
-新しいバージョンの杏里は試験的にフォルダ構成を変更しているため次のファイルを編集してください。
-
-`Avatars/Default/Face/(AvatarName)_face_default.anim`
-
 このファイルは `Animations/Controllers/(AvatarName)_FX.controller` の `DefaultFace` レイヤーで再生されます。
 
 それ以外の表情についても同じフォルダ内にあるアニメーションクリップを編集してください。
+
+がとーしょこらさんの [VRCAvatarEditor beta](https://gatosyocora.booth.pm/items/1258744) や Haï さんの [ComboGestureExpressions](https://hai-vr.booth.pm/items/2219616)などのツールを使用すると直感的に編集できます。
+
+> 杏里のバージョン 2.4 ～ 2.5 は試験的にフォルダ構成を変更しているため次のファイルを編集してください。
+> `Avatars/Default/Face/(AvatarName)_face_default.anim`
 
 ## 表情を変えるとリップシンクが動きません
 
@@ -81,8 +82,6 @@ VRChat 公式で WriteDefaults の使用が非推奨となったため、当モ�
 ほとんどのダンスワールドでは WriteDefaults を ON にする必要があるようです。そのため当モデルに限らず WriteDefaults が OFF 前提で作られているアバターは表情が動きません。
 
 権利的に問題のあるワールドもあるため、確認のうえ自己責任で調整をお願いいたします。
-
-※ 本家の MMD で使用できるように互換の表情のみを実装しているアバターもあります。
 
 ## 目隠れブレンドシェイプがありません
 
