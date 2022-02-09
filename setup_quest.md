@@ -1,15 +1,15 @@
-# アバター導入手順 Quest版
+# アバター導入手順 Quest 版
 
-はじめてアバターを導入する方は、先に [UnityとVRCSDKの導入手順](vrcsdk.md) をご覧ください。
+はじめてアバターを導入する方は、先に [Unity と VRCSDK の導入手順](vrcsdk.md) をご覧ください。
 
-説明では薄荷を使用していますが、当モデルのアバターの導入方法はすべて一緒のためご自分のアバターに置き換えてご覧ください。
+VRChat Quest 版アバターについての導入説明です。説明では薄荷を使用していますが、当モデルのアバターの導入方法はすべて一緒のためご自分のアバターに置き換えてご覧ください。
 
 手順は次のとおりです。
 
 1. [プロジェクトを作成](setup_quest.md?id=プロジェクトを作成)
 2. [アバターの Unitypackage をインポート](setup_quest.md?id=アバターモデルをインポート)
 3. [アバターフォルダ直下にあるプレハブを適当なシーンにドラッグ＆ドロップ](setup_quest.md?id=シーン上にプレハブを読み込む)
-4. [VRCSDKを開きアップロード](setup_quest.md?id=アバターをアップロード)
+4. [VRCSDK を開きアップロード](setup_quest.md?id=アバターをアップロード)
 
 次で各項目を詳しく説明します。
 
@@ -27,14 +27,14 @@ BOOTH の購入ページから「`HakkaQuest_v1.2_(DateTime).zip`」というフ
 
 解凍したフォルダの直下にある `unitypackage` 拡張子のファイルをプロジェクトの「**Assets**」ウィンドウにドラッグ＆ドロップするか、メニューの`Assets > Import Package > Custom Package` からファイルを選択してインポートします。
 
-![](images/setup/quest01.png ':class=ss')
+![](images/setup/quest01.png ":class=ss")
 
 ## シーン上にプレハブを読み込む
 
 インポートすると Project ウィンドウに `mio3io > HakkaQuest` というフォルダが作成されます。
 `HakkaQuest` フォルダの直下にあるプレハブ `HakkaQuest.prefab` を適当なシーンの Hierarchy にドラッグ＆ドロップします
 
-![](images/setup/quest02.png ':class=ss')
+![](images/setup/quest02.png ":class=ss")
 
 ## アバターをアップロード
 
@@ -42,13 +42,13 @@ VRCSDK の Builder タブを開き ① にある「Active Build Target」が「*
 
 「Android」になっていない場合は「**Switch Build Target to Android**」ボタンをクリックして切り替えます。
 
-![](images/setup/quest03.png ':class=ss :size=450')
+![](images/setup/quest03.png ":class=ss :size=450")
 
 このとき「Switch Build Target to Android」が利用できない場合は次の手順で Android 用のモジュールを追加してください。
 
-![](images/setup/quest04.png ':class=ss :size=800')
+![](images/setup/quest04.png ":class=ss :size=800")
 
-![](images/setup/quest05.png ':class=ss :size=800')
+![](images/setup/quest05.png ":class=ss :size=800")
 
 「`Build & Publish for Windows`」ボタンをおします。
 
@@ -56,15 +56,15 @@ VRCSDK の Builder タブを開き ① にある「Active Build Target」が「*
 
 任意の名前を入れアップロードします。
 
-![](images/setup/pc04.png ':class=ss')
+![](images/setup/pc04.png ":class=ss")
 
 !> `Sharing` は必ず `Private` （アップロードした者だけ使用できる） のままにしてください。
 
-新規でアップロードしたアバターは反映まで時間がかかるようなので、10分ほど待ってから確認してみてください。
+新規でアップロードしたアバターは反映まで時間がかかるようなので、10 分ほど待ってから確認してみてください。
 ゲーム画面で読み込まれなくても Web サイトで確認できればアップロードされています。
 
-## PC/Questに両対応する場合
+## PC/Quest に両対応する場合
 
-すでに PC 版をアップロードしている場合は VRCSDK の Content Manager タブを開き、Quest 版を追加したいアバターの「Copy ID」で  Blueprint ID を取得します。Quest 版としてアップロードしたいアバターを選択した状態で Inspector ウィンドウに表示される「Blueprint ID」の部分に取得しておいた  Blueprint ID をペーストして Attach してからアップロードしてください。
+すでに PC 版をアップロードしている場合は VRCSDK の Content Manager タブを開き、Quest 版を追加したいアバターの「Copy ID」で Blueprint ID を取得します。Quest 版としてアップロードしたいアバターを選択した状態で Inspector ウィンドウに表示される「Blueprint ID」の部分に取得しておいた Blueprint ID をペーストして Attach してからアップロードしてください。
 
 先に Quest 版をアップロードしている場合は逆の手順で Blueprint ID を同じものにしてアップロードしてください。
