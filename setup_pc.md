@@ -37,6 +37,7 @@ Unity プロジェクトを作成し VRCSDK をインポートします。
 Dynamic Bone など購入したアセットは `Window > Package Manager` の `My Assets` からインポートすることもできます。
 
 !> 近い将来（おそらく 2022 年の早い時期）に DynamicBone の代替となるアセットを公式が提供する予定で、 DynamicBone は不要になるそうです。
+**更に追記：2022/3/5 に DynamicBone の代替となる PhysBone の オープン β が開始されました。まもなく導入されることが予想されますので、今のタイミングでの購入にはご注意ください。**
 
 ![](images/setup/pc_dynamicbone.png ":class=ss")
 
