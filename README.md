@@ -16,7 +16,8 @@
 🌱 こちらのワールドに試着版があります（ペデスタル設置公認ワールド）
 
 - [mio3io 工房 by mio3io](https://vrchat.com/home/world/wrld_29f9457e-b6c0-45a0-9951-c4e7f22e3f82)
-- [mio アバター集会会場 by sechiro](https://vrchat.com/home/world/wrld_74cc8b90-df3f-4995-a14c-26b2086e0f8d)
+- [mio アバター集会会場 by sechiro （Quset対応）](https://vrchat.com/home/world/wrld_74cc8b90-df3f-4995-a14c-26b2086e0f8d)
+- [mioアバター集会場 （City） — by sechiro （Quset対応）](https://vrchat.com/home/world/wrld_47d5a195-f928-48d4-a224-c81cc199d7b3)
 - バーチャルマーケット/アバターミュージアム/クロスマーケット/NEOKET の出展ブース
 
 足元に広告の輪がついていない、または Author が mio3io 以外の Public アバターは不正なアバターのためご利用にならないようお願いいたします。
