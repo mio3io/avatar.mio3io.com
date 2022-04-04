@@ -26,11 +26,13 @@ Unity プロジェクトを作成し VRCSDK をインポートします。
 
 シェーダーや Dynamic Bone など、アバター以外の必要なアセットのパッケージをインポートします。
 
-薄荷の場合シェーダーは「ユニティちゃんトゥーンシェーダー 2.0（以降 UTS2）」を使用しています。
+薄荷の場合シェーダーは「lilToon」を使用しています。
 
-🍒 [ユニティちゃんトゥーンシェーダー 2.0](https://unity-chan.com/download/releaseNote.php?id=UTS2_0)
+🍒 [lilToon](https://booth.pm/ja/items/3087170)
 
-また当モデルは Dynamic Bone（有料）が必要です。アセットストアで購入してください。
+> 使用シェーダーは各アバター販売ページに書いていますが、当モデルは基本的に「[lilToon](https://booth.pm/ja/items/3087170)」または「[UTS2](https://unity-chan.com/download/releaseNote.php?id=UTS2_0)」を使用しています。アクセサリーなどで [UnlitWF](https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases) や [メガネ向けガラスシェーダー](https://oyasumisan.booth.pm/items/1035152) を使用しています。モデルやバージョンによって異なるため、各アバター販売ページの「Shader」の項目をご確認ください。（2022/4/5 時点で薄荷・杏里は lilToon、翠蓮・一介天使・透羽は UTS2 ですが、今後 lilToon に統一する予定です）
+
+また Dynamic Bone（有料）が必要です。アセットストアで購入してください。
 
 🍒 [Dynamic Bone](https://assetstore.unity.com/packages/tools/animation/dynamic-bone-16743)
 
@@ -44,8 +46,6 @@ Dynamic Bone など購入したアセットは `Window > Package Manager` の `M
 Dynamic Bone がインポートされていない場合 Missing エラーでアップロードできません。所持していない場合は Dynamic Bone が設定されているコンポーネントをすべて削除する必要があります。
 
 🌱 [Missing Remover](https://riku1227.booth.pm/items/1969758) - Missing エラーを削除してくれるツール
-
-> 使用シェーダーは各アバター販売ページに書いていますが、当モデルは基本的に「[UTS2](https://unity-chan.com/download/releaseNote.php?id=UTS2_0)」または「[lilToon](https://booth.pm/ja/items/3087170)」を使用しています。アクセサリーなどで [UnlitWF](https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases) や [メガネ向けガラスシェーダー](https://oyasumisan.booth.pm/items/1035152) を使用しています。モデルやバージョンによって異なるため、各アバター販売ページの「設定済みシェーダー」の項目をご確認ください。
 
 ## アバターモデルをインポート
 
