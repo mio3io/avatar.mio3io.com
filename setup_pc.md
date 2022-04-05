@@ -26,11 +26,11 @@ Unity プロジェクトを作成し VRCSDK をインポートします。
 
 シェーダーや Dynamic Bone など、アバター以外の必要なアセットのパッケージをインポートします。
 
-薄荷の場合シェーダーは「lilToon」を使用しています。
+2022/4/6 現在当ショップのアバターのシェーダーはすべて「lilToon」を使用しています。
 
 🍒 [lilToon](https://booth.pm/ja/items/3087170)
 
-> 使用シェーダーは各アバター販売ページに書いていますが、当モデルは基本的に「[lilToon](https://booth.pm/ja/items/3087170)」または「[UTS2](https://unity-chan.com/download/releaseNote.php?id=UTS2_0)」を使用しています。アクセサリーなどで [UnlitWF](https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases) や [メガネ向けガラスシェーダー](https://oyasumisan.booth.pm/items/1035152) を使用しています。モデルやバージョンによって異なるため、各アバター販売ページの「Shader」の項目をご確認ください。（2022/4/5 時点で薄荷・杏里は lilToon、翠蓮・一介天使・透羽は UTS2 ですが、今後 lilToon に統一する予定です）
+> 使用シェーダーは各アバター販売ページに書いていますが、当モデルは基本的に「[lilToon](https://booth.pm/ja/items/3087170)」または「[UTS2](https://unity-chan.com/download/releaseNote.php?id=UTS2_0)」を使用しています。アクセサリーなどで [UnlitWF](https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases) や [メガネ向けガラスシェーダー](https://oyasumisan.booth.pm/items/1035152) を使用しています。モデルやバージョンによって異なるため、各アバター販売ページの「Shader」の項目をご確認ください。
 
 また Dynamic Bone（有料）が必要です。アセットストアで購入してください。
 
