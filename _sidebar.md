@@ -5,12 +5,16 @@
   - [対応衣装の制作・販売について](userclothes.md)
   - [使用例・改変例の写真を募集しています](userspict.md)
 
-- アバターを使用する
+- VRChat でアバターを使用する
 
   - [UnityとVRCSDKの導入（初心者向け）](vrcsdk.md)
   - [アバターの導入 PC版](setup_pc.md)
   - [アバターの導入 Quest版](setup_quest.md)
   - [アバター改変の手引](tips/)
+
+- cluster でアバターを使用する
+
+  - [スマートフォンからアバターを導入](setup_cluster.md)
 
 - Q&A・お問い合わせ
 
