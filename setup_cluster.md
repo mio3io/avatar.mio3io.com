@@ -1,5 +1,7 @@
 # cluster へのアバター導入手順
 
+![](images/setup/cluster_image.png)
+
 [cluster](https://cluster.mu/) とは、cluster 社が開発しているスマートフォンにも対応したメタバースプラットフォームです。
 当モデルの一部のアバターは cluster で動作確認済みの VRM ＆改変用の VRM 用プレハブを付属しており、スマートフォンだけでアバターを導入することができます。
 
