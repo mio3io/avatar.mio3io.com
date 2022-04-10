@@ -30,8 +30,6 @@ Unity プロジェクトを作成し VRCSDK をインポートします。
 
 🍒 [lilToon](https://booth.pm/ja/items/3087170)
 
-> 使用シェーダーは各アバター販売ページに書いていますが、当モデルは基本的に「[lilToon](https://booth.pm/ja/items/3087170)」または「[UTS2](https://unity-chan.com/download/releaseNote.php?id=UTS2_0)」を使用しています。アクセサリーなどで [UnlitWF](https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases) や [メガネ向けガラスシェーダー](https://oyasumisan.booth.pm/items/1035152) を使用しています。モデルやバージョンによって異なるため、各アバター販売ページの「Shader」の項目をご確認ください。
-
 また Dynamic Bone（有料）が必要です。アセットストアで購入してください。
 
 🍒 [Dynamic Bone](https://assetstore.unity.com/packages/tools/animation/dynamic-bone-16743)
@@ -46,6 +44,8 @@ Dynamic Bone など購入したアセットは `Window > Package Manager` の `M
 Dynamic Bone がインポートされていない場合 Missing エラーでアップロードできません。所持していない場合は Dynamic Bone が設定されているコンポーネントをすべて削除する必要があります。
 
 🌱 [Missing Remover](https://riku1227.booth.pm/items/1969758) - Missing エラーを削除してくれるツール
+
+> アクセサリーなどのシェーダーには [UnlitWF](https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases) や [メガネ向けガラスシェーダー](https://oyasumisan.booth.pm/items/1035152) を使用している場合があります。モデルやバージョンによって異なるため、各アバター販売ページの「Shader」の項目をご確認ください。
 
 ## アバターモデルをインポート
 
@@ -64,7 +64,7 @@ BOOTH の購入ページから「`Hakka_v1.2_VRC_(DateTime).zip`」というフ�
 
 右下のバーでファイル一覧の表示形式を切り替えられます。
 
-アバターがピンク色になっている場合は必要なシェーダーがインポートされていません。
+アバターがピンク色になっている場合は必要なシェーダーがインポートされていません。[シェーダーと DynamicBone をインポート](setup_pc.md?id=前提アセットをインポート)の項目に戻ってアセットをインポートしてください。
 
 ![](images/setup/materialerror.png ":class=ss :size=220")
 
@@ -83,7 +83,7 @@ VRCSDK の Builder タブを開き「`Build & Publish for Windows`」ボタン�
 
 ![](images/setup/pc03.png ":class=ss :size=500")
 
-「`A Material on this avatar has custom shader keywords.`」というメッセージはエラーではありません。UTS2 で非推奨のカスタムキーワードを使用しているための警告なので、無視してそのままアップロードしてください。Auto Fix してしまうと表示がおかしくなる場合があります。もしアップロード出来ない場合は別の何かが原因なので「これを Auto Fix したらいけるのでは？」と思わないでください。
+このとき「`A Material on this avatar has custom shader keywords.`」というメッセージが出ても、エラーではなく非推奨のカスタムキーワードを使用しているための警告なので無視してそのままアップロードできます。（現在はシェーダーを変更しなければこの警告が出ることはありません）
 
 ただし `Streaming Mip Maps` というエラーは Auto Fix しても大丈夫です。
 
