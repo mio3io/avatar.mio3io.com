@@ -7,7 +7,7 @@ VRChat PC 版アバターについての導入説明です。説明では薄荷�
 手順は次のとおりです。
 
 1. [プロジェクトを作成](setup_pc.md?id=プロジェクトを作成)
-2. [シェーダーと DynamicBone をインポート](setup_pc.md?id=前提アセットをインポート)
+2. [シェーダーをインポート](setup_pc.md?id=シェーダーをインポート)
 3. [アバターの Unitypackage をインポート](setup_pc.md?id=アバターモデルをインポート)
 4. [プレハブを適当なシーンにドラッグ＆ドロップ](setup_pc.md?id=シーン上にプレハブを読み込む)
 5. [VRCSDK を開きアップロード](setup_pc.md?id=アバターをアップロード)
@@ -22,34 +22,19 @@ VRCSDK は公式が配布している[最新のバージョン](https://vrchat.c
 
 Unity プロジェクトを作成し VRCSDK をインポートします。
 
-## 前提アセットをインポート
+## シェーダーをインポート
 
-シェーダーや Dynamic Bone など、アバター以外の必要なアセットのパッケージをインポートします。
+シェーダーなどアバター以外の必要なアセットのパッケージをインポートします。
 
 2022/4/6 現在当ショップのアバターのシェーダーはすべて「lilToon」を使用しています。
 
-🍒 [lilToon](https://booth.pm/ja/items/3087170)
-
-また Dynamic Bone（有料）が必要です。アセットストアで購入してください。
-
-🍒 [Dynamic Bone](https://assetstore.unity.com/packages/tools/animation/dynamic-bone-16743)
-
-Dynamic Bone など購入したアセットは `Window > Package Manager` の `My Assets` からインポートすることもできます。
-
-!> 近い将来（おそらく 2022 年の早い時期）に DynamicBone の代替となるアセットを公式が提供する予定で、 DynamicBone は不要になるそうです。
-**更に追記：2022/3/5 に DynamicBone の代替となる PhysBone の オープン β が開始されました。まもなく導入されることが予想されますので、今のタイミングでの購入にはご注意ください。**
-
-![](images/setup/pc_dynamicbone.png ":class=ss")
-
-Dynamic Bone がインポートされていない場合 Missing エラーでアップロードできません。所持していない場合は Dynamic Bone が設定されているコンポーネントをすべて削除する必要があります。
-
-🌱 [Missing Remover](https://riku1227.booth.pm/items/1969758) - Missing エラーを削除してくれるツール
+🍒 [lilToon](https://lilxyzw.booth.pm/items/3087170)
 
 > アクセサリーなどのシェーダーには [UnlitWF](https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases) や [メガネ向けガラスシェーダー](https://oyasumisan.booth.pm/items/1035152) を使用している場合があります。モデルやバージョンによって異なるため、各アバター販売ページの「Shader」の項目をご確認ください。
 
 ## アバターモデルをインポート
 
-BOOTH の購入ページから「`Hakka_v1.2_VRC_(DateTime).zip`」というファイルをダウンロードして適当な場所に解凍します。いくつかファイルがありますが、ZIP ファイル名に `_VRC` とついているものが VRChat 用のパッケージです。
+BOOTH の購入ページから「`Hakka_VRC_v.x_(DateTime).zip`」というファイルをダウンロードして適当な場所に解凍します。いくつかファイルがありますが、ZIP ファイル名に `_VRC` とついているものが VRChat 用のパッケージです。
 
 解凍したフォルダの直下にある `unitypackage` 拡張子のファイルをプロジェクトの「**Assets**」ウィンドウにドラッグ＆ドロップするか、メニューの`Assets > Import Package > Custom Package` からファイルを選択してインポートします。
 
@@ -58,13 +43,13 @@ BOOTH の購入ページから「`Hakka_v1.2_VRC_(DateTime).zip`」というフ�
 ## シーン上にプレハブを読み込む
 
 インポートすると Project ウィンドウに `mio3io > Hakka` というフォルダが作成されます。
-`Hakka` フォルダの直下にあるプレハブ `Hakka_v.x_Normal.prefab` を適当なシーンの Hierarchy にドラッグ＆ドロップします
+`Hakka` フォルダの直下にあるプレハブ `Hakka_Normal.prefab` を適当なシーンの Hierarchy にドラッグ＆ドロップします
 
 ![](images/setup/pc02.png ":class=ss")
 
 右下のバーでファイル一覧の表示形式を切り替えられます。
 
-アバターがピンク色になっている場合は必要なシェーダーがインポートされていません。[シェーダーと DynamicBone をインポート](setup_pc.md?id=前提アセットをインポート)の項目に戻ってアセットをインポートしてください。
+アバターがピンク色になっている場合は必要なシェーダーがインポートされていません。[シェーダーをインポート](setup_pc.md?id=シェーダーをインポート)の項目に戻ってアセットをインポートしてください。
 
 ![](images/setup/materialerror.png ":class=ss :size=220")
 
