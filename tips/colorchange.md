@@ -17,3 +17,7 @@ lilToon の色調補正スライダーを使って Unity 上で髪や瞳の色�
 ![](../images/tips/colorchange02.png ':class=ss :size=700')
 
 「焼き込み」ボタンを押すと調整した状態を新しいテクスチャとして作成できます。
+
+色調補正のスライダーの項目が見つからない場合は「設定」で「色調補正」にチェックを入れて「シェーダー設定を適用」をしてください。
+
+![](../images/tips/colorchange03.png ':class=ss :size=500')
