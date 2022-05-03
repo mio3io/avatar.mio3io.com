@@ -10,17 +10,19 @@
   - [UnityとVRCSDKの導入（初心者向け）](vrcsdk.md)
   - [アバターの導入 PC版](setup_pc.md)
   - [アバターの導入 Quest版](setup_quest.md)
-  - [アバター改変の手引](tips/)
 
 - cluster でアバターを使用する
 
   - [スマートフォンからアバターを導入](setup_cluster.md)
 
+- アバター改変Tips（PC版）
+
+  - [アバター改変の手引](tips/)
+
 - Q&A・お問い合わせ
 
   - [一般的な質問](qa/general.md)
   - [アバターについての質問](qa/avatar.md)
-  - [ワンオフ・オーダーメイドについて](order.md)
   - [ユーザーイベントの開催について](userevent.md)
   - [Publicになっているアバターを見つけたら](report.md)
   - [公式Discordサーバー](contact.md?id=公式discordサーバー)
