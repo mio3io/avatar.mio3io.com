@@ -19,7 +19,7 @@ VRCSDK は公式が配布している[最新のバージョン](https://vrchat.c
 
 ## プロジェクトを作成
 
-Unity プロジェクトを作成し VRCSDK をインポートします。
+[あらかじめ Unity プロジェクトを作成し VRCSDK をインポートしておきます。](vrcsdk.md)
 
 ## アバターモデルをインポート
 
@@ -68,3 +68,11 @@ VRCSDK の Builder タブを開き ① にある「Active Build Target」が「*
 すでに PC 版をアップロードしている場合は VRCSDK の Content Manager タブを開き、Quest 版を追加したいアバターの「Copy ID」で Blueprint ID を取得します。Quest 版としてアップロードしたいアバターを選択した状態で Inspector ウィンドウに表示される「Blueprint ID」の部分に取得しておいた Blueprint ID をペーストして Attach してからアップロードしてください。
 
 先に Quest 版をアップロードしている場合は逆の手順で Blueprint ID を同じものにしてアップロードしてください。
+
+## うまくアップロードできない場合
+
+次の原因が考えられます。
+
+1. Unity のバージョンが正しくない
+2. VRCSDK のバージョンが正しくない
+3. シェーダーがインポートされていない

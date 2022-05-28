@@ -20,17 +20,16 @@ VRCSDK は公式が配布している[最新のバージョン](https://vrchat.c
 
 ## プロジェクトを作成
 
-Unity プロジェクトを作成し VRCSDK をインポートします。
+[あらかじめ Unity プロジェクトを作成し VRCSDK をインポートしておきます。](vrcsdk.md)
 
 ## シェーダーをインポート
 
 シェーダーなどアバター以外の必要なアセットのパッケージをインポートします。
-
 2022/4/6 現在当ショップのアバターのシェーダーはすべて「lilToon」を使用しています。
 
 🍒 [lilToon](https://lilxyzw.booth.pm/items/3087170)
 
-> アクセサリーなどのシェーダーには [UnlitWF](https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases) や [メガネ向けガラスシェーダー](https://oyasumisan.booth.pm/items/1035152) を使用している場合があります。モデルやバージョンによって異なるため、各アバター販売ページの「Shader」の項目をご確認ください。
+<!-- >> アクセサリーなどのシェーダーには [UnlitWF](https://github.com/whiteflare/Unlit_WF_ShaderSuite/releases) や [メガネ向けガラスシェーダー](https://oyasumisan.booth.pm/items/1035152) を使用している場合があります。モデルやバージョンによって異なるため、各アバター販売ページの「Shader」の項目をご確認ください。 -->
 
 ## アバターモデルをインポート
 
@@ -84,3 +83,13 @@ VRCSDK の Builder タブを開き「`Build & Publish for Windows`」ボタン�
 
 新規でアップロードしたアバターは反映まで時間がかかるようなので、10 分ほど待ってから確認してみてください。
 ゲーム画面で読み込まれなくても Web サイトで確認できればアップロードされています。
+
+## うまくアップロードできない場合
+
+次の原因が考えられます。
+
+1. Unity のバージョンが正しくない
+2. VRCSDK のバージョンが正しくない
+3. シェーダーがインポートされていない
+
+
