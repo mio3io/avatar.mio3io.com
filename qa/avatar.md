@@ -76,7 +76,7 @@ FaceTracking をオンにする場合作成した表情の組み合わせによ�
 
 ## MMD ワールドで表情が変わりません :id=DanceWorld
 
-当モデルは VRChat のダンスワールドの表情変更には基本に対応しておりません。
+当モデルは VRChat のダンスワールドの表情変更には基本対応しておりません。
 
 VRChat 公式で WriteDefaults の使用が非推奨となったため、当モデルも WriteDefaults は OFF 前提のコントローラー構造になっています。
 
